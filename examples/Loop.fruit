@@ -1,0 +1,5 @@
+🍎a = 0
+Stir (🍎a LessFresh 5) {
+    Squeeze 🍎a
+    🍎a = (🍎a Mash 1)
+}

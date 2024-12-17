@@ -1,0 +1,6 @@
+🍎a = 5
+TastesLike (🍎a RiperThan 3) {
+    Squeeze "🍎a is greater than 3"
+} Bitter {
+    Squeeze "🍎a is not greater than 3"
+}

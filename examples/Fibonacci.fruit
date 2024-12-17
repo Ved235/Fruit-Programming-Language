@@ -1,0 +1,13 @@
+🍎n = 10
+🍎a = 0
+🍎b = 1
+🍎i = 2
+Squeeze 🍎a
+Squeeze 🍎b
+Stir (🍎i LessFresh 🍎n) {
+    🍎c = (🍎a Mash 🍎b)
+    Squeeze 🍎c
+    🍎a = 🍎b
+    🍎b = 🍎c
+    🍎i = (🍎i Mash 1)
+}
