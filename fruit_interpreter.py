@@ -26,6 +26,8 @@ class FruitInterpreter:
                 return self.evaluate(node[1]) > self.evaluate(node[2])  # Greater than
             elif node[0] == 'LessFresh':
                 return self.evaluate(node[1]) < self.evaluate(node[2])  # Less than
+            elif node[0] == 'Equals':
+                return self.evaluate(node[1]) == self.evaluate(node[2]) # Equals
             elif node[0] == 'int':
                 return int(self.evaluate(node[1]))  # Integer conversion
             elif node[0] == 'loop':
